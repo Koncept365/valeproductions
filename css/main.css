@@ -11,7 +11,7 @@ body {
     text-align: center;
   }
 
-a, a:hover, a.focus, a:active, a:visited {
+a, a:hover, a:focus, a:visited, a:active {
     color: #fff
 }
 
@@ -31,7 +31,8 @@ a, a:hover, a.focus, a:active, a:visited {
     text-align: center;
     font-weight: 500;
     font-size: 1.2em;
-    padding-bottom: 0.5em
+    padding-bottom: 0.5em;
+    line-height: 1em;
     
 }
 
@@ -127,6 +128,9 @@ footer {
 /* Small Devices */
 
 @media screen and (max-width: 768px) {
+    .contact {
+        font-size: 1.2em
+    }
     .intro {
         font-size: 1.2em;
         padding-top: 1em;
@@ -138,6 +142,9 @@ footer {
     .content .row p {
         font-size: 1.2em;
     }
+    .about {
+        border: none;
+    }
     .about p {
         width: 100%;
     }
@@ -148,7 +155,7 @@ footer {
     }
     footer {
         padding-top: 0em;
-        padding-bottom: 0em;
+        padding-bottom: 1em;
         font-size: 1.2em
     }
 }
