@@ -1,0 +1,154 @@
+/*
+Copyright 2015 Koncept Design - Trading name of Koncept 365 Limited
+*/
+
+/* Global */
+
+body {
+    font-family: "raleway", sans-serif;
+    font-weight: 500;
+    color: #3c3c3b;
+    text-align: center;
+  }
+
+a, a:hover, a.focus, a:active, a:visited {
+    color: #fff
+}
+
+/* Header */
+
+.topbar {
+    background-color: #4d2770;
+}
+
+.logo {
+    padding-top: 2em;
+    padding-bottom: 2em
+}
+
+.contact {
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2em;
+    padding-bottom: 0.5em
+    
+}
+
+@media (min-width: 768px ) {
+  .topbar .row {
+      position: relative;
+  }
+
+  .contact {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 1.5em;
+    text-align: right;
+  }
+}
+
+@media (min-width: 768px ) {
+    .hero {
+        background-image: url(../img/hero.png);
+        background-repeat: none;
+        background-attachment: scroll;
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;    
+        height: 30em;
+    }
+}
+
+/* Main Content */
+
+.content {
+    text-align: center;
+}
+
+.intro {
+    font-size: 1.8em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.content .row h1 {
+    font-family: Georgia;
+    font-weight: 500;
+    font-size: 3em;
+    color: #4d2770;    
+}
+
+.content .row p {
+    font-size: 1.5em
+}
+
+.about {
+    border-left: solid;
+    border-width: thin;
+    border-color: #4d2770;
+}
+
+.about p {
+    width: 75%
+}
+
+.endnote {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color: #4d2770;
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+/* Footer */
+
+footer {
+    background-color: #4d2770;
+    color: #fff;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.6em
+}
+
+.tel {
+    padding-top: 1em;
+    text-align: center
+}
+
+.mail {
+    padding-top: 1em;
+    text-align: center
+}
+
+/* Small Devices */
+
+@media screen and (max-width: 768px) {
+    .intro {
+        font-size: 1.2em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    .content h1 {
+        font-size: 2em !important;
+    }
+    .content .row p {
+        font-size: 1.2em;
+    }
+    .about p {
+        width: 100%;
+    }
+    .endnote {
+        padding-top: 1em;
+        padding-bottom: 1em;
+        font-size: 1.4em;
+    }
+    footer {
+        padding-top: 0em;
+        padding-bottom: 0em;
+        font-size: 1.2em
+    }
+}
