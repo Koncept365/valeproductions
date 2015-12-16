@@ -128,22 +128,16 @@ footer {
 /* Small Devices */
 
 @media screen and (max-width: 768px) {
-    .contact {
-        font-size: 1.2em
-    }
     .intro {
         font-size: 1.2em;
         padding-top: 1em;
-        padding-bottom: 1em;
+        padding-bottom: 0em;
     }
     .content h1 {
         font-size: 2em !important;
     }
     .content .row p {
         font-size: 1.2em;
-    }
-    .about {
-        border-left: none;
     }
     .about p {
         width: 100%;
@@ -157,5 +151,17 @@ footer {
         padding-top: 0em;
         padding-bottom: 1em;
         font-size: 1.2em
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .about {
+        border-style: none;
+    }
+    .contact {
+        font-size: 1.2em
+    }
+    footer img {
+        padding-top: 1em;
     }
 }
