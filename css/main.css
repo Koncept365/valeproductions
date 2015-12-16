@@ -51,7 +51,7 @@ a, a:hover, a.focus, a:active, a:visited {
 
 @media (min-width: 768px ) {
     .hero {
-        background-image: url(../img/hero.png);
+        background-image: url(../img/HERO.png);
         background-repeat: none;
         background-attachment: scroll;
         background-position: center;
