@@ -45,7 +45,6 @@ a, a:hover, a:focus, a:visited, a:active {
     position: absolute;
     bottom: 0;
     right: 0;
-    font-size: 1.5em;
     text-align: right;
   }
 }
@@ -71,7 +70,7 @@ a, a:hover, a:focus, a:visited, a:active {
 }
 
 .intro {
-    font-size: 1.8em;
+    font-size: 1.5em;
     padding-top: 1.5em;
     padding-bottom: 1.5em;
 }
@@ -79,16 +78,16 @@ a, a:hover, a:focus, a:visited, a:active {
 .content .row h1 {
     font-family: Georgia;
     font-weight: 500;
-    font-size: 3em;
+    font-size: 2.5em;
     color: #4d2770;    
 }
 
 .content .row p {
-    font-size: 1.5em
+    font-size: 1.2em
 }
 
-.about {
-    border-left: solid;
+.services {
+    border-right: solid;
     border-width: thin;
     border-color: #4d2770;
 }
@@ -101,7 +100,7 @@ a, a:hover, a:focus, a:visited, a:active {
     padding-top: 2em;
     padding-bottom: 2em;
     color: #4d2770;
-    font-size: 1.6em;
+    font-size: 1.5em;
     font-weight: 600;
 }
 
@@ -112,18 +111,19 @@ footer {
     color: #fff;
     padding-top: 1em;
     padding-bottom: 1em;
-    font-size: 1.6em
+    font-size: 1.2em
 }
 
 .tel {
-    padding-top: 1em;
-    text-align: center
+    padding-top: 1.3em;
+    text-align: right
 }
 
 .mail {
-    padding-top: 1em;
-    text-align: center
+    padding-top: 1.3em;
+    text-align: left
 }
+
 
 /* Small Devices */
 
@@ -145,7 +145,7 @@ footer {
     .endnote {
         padding-top: 1em;
         padding-bottom: 1em;
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
     footer {
         padding-top: 0em;
@@ -155,7 +155,7 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
-    .about {
+    .services {
         border-style: none;
     }
     .contact {
@@ -163,5 +163,11 @@ footer {
     }
     footer img {
         padding-top: 1em;
+    }
+    .tel {
+        text-align: center
+    }
+    .mail {
+        text-align: center
     }
 }
