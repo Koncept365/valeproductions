@@ -143,7 +143,7 @@ footer {
         font-size: 1.2em;
     }
     .about {
-        border: none;
+        border-left: none;
     }
     .about p {
         width: 100%;
