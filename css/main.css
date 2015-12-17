@@ -70,7 +70,7 @@ a, a:hover, a:focus, a:visited, a:active {
 }
 
 .intro {
-    font-size: 1.5em;
+    font-size: 1.3em;
     padding-top: 1.5em;
     padding-bottom: 1.5em;
 }
@@ -78,7 +78,7 @@ a, a:hover, a:focus, a:visited, a:active {
 .content .row h1 {
     font-family: Georgia;
     font-weight: 500;
-    font-size: 2.5em;
+    font-size: 2em;
     color: #4d2770;    
 }
 
@@ -93,14 +93,14 @@ a, a:hover, a:focus, a:visited, a:active {
 }
 
 .about p {
-    width: 75%
+    width: 60%
 }
 
 .endnote {
     padding-top: 2em;
     padding-bottom: 2em;
     color: #4d2770;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 600;
 }
 
