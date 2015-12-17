@@ -31,7 +31,7 @@ a, a:hover, a:focus, a:visited, a:active {
     text-align: center;
     font-weight: 500;
     font-size: 1.2em;
-    padding-bottom: 0.5em;
+    padding-bottom: 0.8em;
     line-height: 1em;
     
 }
@@ -51,7 +51,7 @@ a, a:hover, a:focus, a:visited, a:active {
 
 @media (min-width: 768px ) {
     .hero {
-        background-image: url(../img/hero-v2.png);
+        background-image: url(../img/hero-v3.png);
         background-repeat: none;
         background-attachment: scroll;
         background-position: center;
@@ -59,7 +59,7 @@ a, a:hover, a:focus, a:visited, a:active {
         -moz-background-size: cover;
         background-size: cover;
         -o-background-size: cover;    
-        height: 30em;
+        height: 25em;
     }
 }
 
@@ -115,12 +115,12 @@ footer {
 }
 
 .tel {
-    padding-top: 1.3em;
+    padding-top: 1em;
     text-align: right
 }
 
 .mail {
-    padding-top: 1.3em;
+    padding-top: 1em;
     text-align: left
 }
 
