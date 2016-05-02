@@ -1,5 +1,5 @@
 /*
-Copyright 2015 Koncept Design - Trading name of Koncept 365 Limited
+Copyright 2016 Koncept Design - Trading name of Koncept 365 Limited
 */
 
 /* Global */
@@ -36,17 +36,33 @@ a, a:hover, a:focus, a:visited, a:active {
     
 }
 
+.tempnav {
+    color:  #fff;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2em;
+    padding-top: 0.5em;
+    line-height: 1em;
+}
+
 @media (min-width: 768px ) {
   .topbar .row {
-      position: relative;
+      display: table;
   }
-
-  .contact {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    text-align: right;
-  }
+    .topbar .row > div {
+      display: table;
+      float: none;
+      display: table-cell;
+    }
+    .contact {
+        right: 0;
+        bottom: 1.5em;
+        text-align: right;
+    }
+    .tempnav {
+        bottom: 0;
+        text-align: left;
+    } 
 }
 
 @media (min-width: 768px ) {
@@ -65,8 +81,24 @@ a, a:hover, a:focus, a:visited, a:active {
 
 /* Main Content */
 
+.greybar {
+    background-color: #f7f4f9;
+    margin-bottom: 1em
+}
+
+.greybar h1 {
+    font-family: Georgia;
+    font-weight: 500;
+    font-size: 2em;
+    color: #4d2770;   
+}
+
 .content {
     text-align: center;
+}
+
+.content p {
+    padding: 0.5em
 }
 
 .intro {
@@ -82,8 +114,27 @@ a, a:hover, a:focus, a:visited, a:active {
     color: #4d2770;    
 }
 
+.content .row h2 {
+    font-family: Georgia;
+    font-weight: 500;
+    font-size: 1.8em;
+    color: #4d2770;    
+}
+
+.content .row h3 {
+    font-family: Georgia;
+    font-weight: 500;
+    font-size: 1.5em;
+    font-style: italic;
+    color: #4d2770;    
+}
+
 .content .row p {
     font-size: 1.2em
+}
+
+.content img {
+    padding: 0.5em;
 }
 
 .services {
@@ -152,6 +203,10 @@ footer {
         padding-bottom: 1em;
         font-size: 1.2em
     }
+    
+    .greybar {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -169,5 +224,9 @@ footer {
     }
     .mail {
         text-align: center
+    }
+    
+    .greybar {
+        display: none;
     }
 }
